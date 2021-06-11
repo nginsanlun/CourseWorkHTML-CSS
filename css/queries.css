@@ -1,0 +1,181 @@
+/* Small tables to big tablet: from 375px to 812px */
+@media only screen and (max-width : 812px){
+    header{
+        
+        display: flex;
+        /* width: 100%; */
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+         justify-content: space-between;
+       align-items:  center;  
+    }
+    header .logo{
+        color: #046672;
+        font-weight: 450;
+        font-size: 2em;
+        text-decoration: none;
+    }
+    header .logo span{
+        color: #046672;
+        font-weight: 400;
+    }
+    header .navigation{
+        width: 100%;
+       display: block;
+        text-align: center;
+        /* flex-direction: column;  */
+       /* justify-content: space-between;
+       align-items:  center;    */
+   }
+   
+    header .navigation li a{
+        width: 100%;
+        display: block;
+        text-decoration: none;
+        color: #046672;
+        font-size: 20px;
+        font-weight: 400;
+        padding: 15px 5px;
+    }
+    .navigation li a:hover{
+        
+        border-bottom:1px solid #046672;
+        transition: all 0.3s ease-in-out;
+    }
+    .about{
+        margin: 0 auto;
+    } 
+    .row{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+        
+    }
+
+    .banner .content{
+        max-width: 400px;
+    }
+    .banner .content h2{
+        font-size: 1.3em; 
+        
+        letter-spacing: 1px;
+        
+        margin-bottom: 3%;
+    }
+    .banner .content p{
+        font-size: 0.75em;
+        color: #ffffff;
+        letter-spacing: 0.8px;
+        line-height: 2;
+        
+        margin-bottom: 6%;
+    }
+    .btn{
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1em;
+        color: #ffffff;
+        background: #046672;
+        padding: 8px 20px;
+    }
+    .row .col50{
+        width: 50%;
+    }
+    .titleText{
+        color: #0c0c0c;
+        font-size:2em;
+        letter-spacing: 2px;
+    }
+    .titleText span{
+        color: #046672;
+        font-size: 2em;
+    }
+    .row .col50 .imgBx{
+        margin-top: 10%;
+        width: 100%;
+        position: relative;
+        
+    }
+    .row .col50 .imgBx img{
+        position: absolute;
+        width: 100%;
+        object-fit: cover;
+    }
+    .menu .title{
+        margin-top: 45%;
+    }
+    .menu .title h2{
+        font-size: 1.5em;
+    }
+    .menu .title p{
+        margin-top: 4%;
+        font-size: 0.75em;
+    }
+}
+/* Small phones : from 320px to 374px */
+@media only screen and (max-width : 374px){
+    header .logo{
+        color: #046672;
+        font-weight: 400;
+        font-size: 1.5em;
+    }
+    header .navigation li a{
+        font-size: 15px;
+        font-weight: 350;
+        padding: 8px 5px;
+    }
+    .banner .content{
+        max-width: 300px;
+    }
+    .banner .content h2{
+        font-size: 1em; 
+        letter-spacing: 1px;
+        margin-bottom: 3%;
+    }
+     .banner .content p{
+        font-size: 0.5em;
+        letter-spacing: 0.5px;
+        line-height: 2;
+        margin-bottom: 6%;
+    }
+     .btn{
+        font-size: 0.75em;
+        padding: 5px 15px;
+    }  
+    .titleText{
+        color: #0c0c0c;
+        font-size:1.5em;
+        letter-spacing: 1px;
+    }
+    .titleText span{
+        color: #046672;
+        font-size: 1.8em;
+    }
+    .col50 p{
+        font-size: 0.75em;
+        line-height: 1.5;
+    }
+    .menu .title{
+        margin-top: 40%;
+    }
+    .menu .title h2{
+        font-size: 1em;
+    }
+    .menu .title p{
+        margin-top: 3%;
+        font-size: 0.55em;
+    }
+    h2:after{
+        height: 1px;
+        width: 100px;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .menu .content .box{
+        width: 350px;
+        margin: 5px;
+    }
+}
+
